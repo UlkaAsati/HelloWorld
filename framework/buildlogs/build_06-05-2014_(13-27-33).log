@@ -1,0 +1,42 @@
+     [echo] build logged to build_06-05-2014_(13-27-33).log
+init:  duration 0 seconds
+
+setClassPath:
+[pathconvert] Set property test.classpath = D:\workspace\framework:D:\workspace\framework\lib\SaxonLiaison.jar:D:\workspace\framework\lib\TestNG.jar:D:\workspace\framework\lib\activation.jar:D:\workspace\framework\lib\dsn.jar:D:\workspace\framework\lib\gimap.jar:D:\workspace\framework\lib\imap.jar:D:\workspace\framework\lib\jxl.jar:D:\workspace\framework\lib\mail.jar:D:\workspace\framework\lib\pop3.jar:D:\workspace\framework\lib\saxon-8.7.jar:D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar:D:\workspace\framework\lib\smtp.jar
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+loadTestNG:  duration 0 seconds
+
+compile:
+     [echo] classpath:D:\workspace\framework:D:\workspace\framework\lib\SaxonLiaison.jar:D:\workspace\framework\lib\TestNG.jar:D:\workspace\framework\lib\activation.jar:D:\workspace\framework\lib\dsn.jar:D:\workspace\framework\lib\gimap.jar:D:\workspace\framework\lib\imap.jar:D:\workspace\framework\lib\jxl.jar:D:\workspace\framework\lib\mail.jar:D:\workspace\framework\lib\pop3.jar:D:\workspace\framework\lib\saxon-8.7.jar:D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar:D:\workspace\framework\lib\smtp.jar
+     [echo] compiling..........
+    [javac] D:\workspace\framework\build.xml:36: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Browser.java added as Browser.class doesn't exist.
+    [javac] Test.java added as Test.class doesn't exist.
+    [javac] Test01.java added as Test01.class doesn't exist.
+    [javac] Test02.java added as Test02.class doesn't exist.
+    [javac] TestBase.java added as TestBase.class doesn't exist.
+    [javac] D:\workspace\framework\src\xslt\testng-results.xsl skipped - don't know how to handle it
+    [javac] Compiling 5 source files to D:\workspace\framework\build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'D:\workspace\framework\build'
+'-classpath'
+'D:\workspace\framework\build;D:\workspace\framework;D:\workspace\framework\lib\SaxonLiaison.jar;D:\workspace\framework\lib\TestNG.jar;D:\workspace\framework\lib\activation.jar;D:\workspace\framework\lib\dsn.jar;D:\workspace\framework\lib\gimap.jar;D:\workspace\framework\lib\imap.jar;D:\workspace\framework\lib\jxl.jar;D:\workspace\framework\lib\mail.jar;D:\workspace\framework\lib\pop3.jar;D:\workspace\framework\lib\saxon-8.7.jar;D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar;D:\workspace\framework\lib\smtp.jar;D:\library\apache-ant-1.9.3\lib\ant-launcher.jar;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip;D:\library\apache-ant-1.9.3\lib\activation.jar;D:\library\apache-ant-1.9.3\lib\ant-antlr.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-bcel.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-bsf.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-log4j.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-oro.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-regexp.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-resolver.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-xalan2.jar;D:\library\apache-ant-1.9.3\lib\ant-commons-logging.jar;D:\library\apache-ant-1.9.3\lib\ant-commons-net.jar;D:\library\apache-ant-1.9.3\lib\ant-jai.jar;D:\library\apache-ant-1.9.3\lib\ant-javamail.jar;D:\library\apache-ant-1.9.3\lib\ant-jdepend.jar;D:\library\apache-ant-1.9.3\lib\ant-jmf.jar;D:\library\apache-ant-1.9.3\lib\ant-jsch.jar;D:\library\apache-ant-1.9.3\lib\ant-junit.jar;D:\library\apache-ant-1.9.3\lib\ant-junit4.jar;D:\library\apache-ant-1.9.3\lib\ant-netrexx.jar;D:\library\apache-ant-1.9.3\lib\ant-swing.jar;D:\library\apache-ant-1.9.3\lib\ant-testutil.jar;D:\library\apache-ant-1.9.3\lib\ant.jar;D:\library\apache-ant-1.9.3\lib\mail.jar;C:\Program Files\Java\jdk1.7.0_25\lib\tools.jar'
+'-sourcepath'
+'D:\workspace\framework\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    D:\workspace\framework\src\Browser.java
+    D:\workspace\framework\src\Test.java
+    D:\workspace\framework\src\Test01.java
+    D:\workspace\framework\src\Test02.java
+    D:\workspace\framework\src\TestBase.java
+compile:  duration 0 seconds
+
+BUILD SUCCESSFUL

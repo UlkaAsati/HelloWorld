@@ -1,0 +1,121 @@
+     [echo] build logged to build_08-05-2014_(13-37-02).log
+init:  duration 0 seconds
+
+setClassPath:
+[pathconvert] Set property test.classpath = D:\workspace\framework:D:\workspace\framework\lib\SaxonLiaison.jar:D:\workspace\framework\lib\TestNG.jar:D:\workspace\framework\lib\activation.jar:D:\workspace\framework\lib\dsn.jar:D:\workspace\framework\lib\gimap.jar:D:\workspace\framework\lib\imap.jar:D:\workspace\framework\lib\jxl.jar:D:\workspace\framework\lib\mail.jar:D:\workspace\framework\lib\pop3.jar:D:\workspace\framework\lib\saxon-8.7.jar:D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar:D:\workspace\framework\lib\smtp.jar
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+loadTestNG:  duration 0 seconds
+
+compile:
+     [echo] classpath:D:\workspace\framework:D:\workspace\framework\lib\SaxonLiaison.jar:D:\workspace\framework\lib\TestNG.jar:D:\workspace\framework\lib\activation.jar:D:\workspace\framework\lib\dsn.jar:D:\workspace\framework\lib\gimap.jar:D:\workspace\framework\lib\imap.jar:D:\workspace\framework\lib\jxl.jar:D:\workspace\framework\lib\mail.jar:D:\workspace\framework\lib\pop3.jar:D:\workspace\framework\lib\saxon-8.7.jar:D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar:D:\workspace\framework\lib\smtp.jar
+     [echo] compiling..........
+    [javac] D:\workspace\framework\build.xml:36: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Browser.java added as Browser.class doesn't exist.
+    [javac] Test.java added as Test.class doesn't exist.
+    [javac] Test01.java added as Test01.class doesn't exist.
+    [javac] Test02.java added as Test02.class doesn't exist.
+    [javac] TestBase.java added as TestBase.class doesn't exist.
+    [javac] D:\workspace\framework\src\xslt\testng-results.xsl skipped - don't know how to handle it
+    [javac] Compiling 5 source files to D:\workspace\framework\build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'D:\workspace\framework\build'
+'-classpath'
+'D:\workspace\framework\build;D:\workspace\framework;D:\workspace\framework\lib\SaxonLiaison.jar;D:\workspace\framework\lib\TestNG.jar;D:\workspace\framework\lib\activation.jar;D:\workspace\framework\lib\dsn.jar;D:\workspace\framework\lib\gimap.jar;D:\workspace\framework\lib\imap.jar;D:\workspace\framework\lib\jxl.jar;D:\workspace\framework\lib\mail.jar;D:\workspace\framework\lib\pop3.jar;D:\workspace\framework\lib\saxon-8.7.jar;D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar;D:\workspace\framework\lib\smtp.jar;D:\library\apache-ant-1.9.3\lib\ant-launcher.jar;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip;D:\library\apache-ant-1.9.3\lib\activation.jar;D:\library\apache-ant-1.9.3\lib\ant-antlr.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-bcel.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-bsf.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-log4j.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-oro.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-regexp.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-resolver.jar;D:\library\apache-ant-1.9.3\lib\ant-apache-xalan2.jar;D:\library\apache-ant-1.9.3\lib\ant-commons-logging.jar;D:\library\apache-ant-1.9.3\lib\ant-commons-net.jar;D:\library\apache-ant-1.9.3\lib\ant-jai.jar;D:\library\apache-ant-1.9.3\lib\ant-javamail.jar;D:\library\apache-ant-1.9.3\lib\ant-jdepend.jar;D:\library\apache-ant-1.9.3\lib\ant-jmf.jar;D:\library\apache-ant-1.9.3\lib\ant-jsch.jar;D:\library\apache-ant-1.9.3\lib\ant-junit.jar;D:\library\apache-ant-1.9.3\lib\ant-junit4.jar;D:\library\apache-ant-1.9.3\lib\ant-netrexx.jar;D:\library\apache-ant-1.9.3\lib\ant-swing.jar;D:\library\apache-ant-1.9.3\lib\ant-testutil.jar;D:\library\apache-ant-1.9.3\lib\ant.jar;D:\library\apache-ant-1.9.3\lib\mail.jar;C:\Program Files\Java\jdk1.7.0_25\lib\tools.jar'
+'-sourcepath'
+'D:\workspace\framework\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    D:\workspace\framework\src\Browser.java
+    D:\workspace\framework\src\Test.java
+    D:\workspace\framework\src\Test01.java
+    D:\workspace\framework\src\Test02.java
+    D:\workspace\framework\src\TestBase.java
+compile:  duration 0 seconds
+
+runTests:
+   [testng] Executing 'C:\Program Files\Java\jdk1.7.0_25\jre\bin\java.exe' with arguments:
+'-ea'
+'-classpath'
+'D:\workspace\framework;D:\workspace\framework\lib\SaxonLiaison.jar;D:\workspace\framework\lib\TestNG.jar;D:\workspace\framework\lib\activation.jar;D:\workspace\framework\lib\dsn.jar;D:\workspace\framework\lib\gimap.jar;D:\workspace\framework\lib\imap.jar;D:\workspace\framework\lib\jxl.jar;D:\workspace\framework\lib\mail.jar;D:\workspace\framework\lib\pop3.jar;D:\workspace\framework\lib\saxon-8.7.jar;D:\workspace\framework\lib\selenium-server-standalone-2.39.0.jar;D:\workspace\framework\lib\smtp.jar;D:\workspace\framework\build'
+'org.testng.TestNG'
+'@C:\Users\JAI_JA~1\AppData\Local\Temp\testng2457911140738313415'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] [TestNG] Running:
+   [testng]   D:\workspace\framework\testFiles.xml
+   [testng] 
+   [testng] 
+   [testng] ===============================================
+   [testng] Parallel test runs
+   [testng] Total tests run: 2, Failures: 0, Skips: 0
+   [testng] ===============================================
+   [testng] 
+runTests:  duration 1 minute 13 seconds
+
+report:
+   [delete] Deleting directory D:\workspace\framework\testng-xslt
+   [delete] Deleting D:\workspace\framework\testng-xslt\index.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\main.js
+   [delete] Deleting D:\workspace\framework\testng-xslt\navigation.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\overview-chart.svg
+   [delete] Deleting D:\workspace\framework\testng-xslt\overview.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\Parallel test runs.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\Parallel test runs_groups.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\Parallel test runs_T_01.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\Parallel test runs_T_02.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\Report.zip
+   [delete] Deleting D:\workspace\framework\testng-xslt\reporterOutput.html
+   [delete] Deleting D:\workspace\framework\testng-xslt\style.css
+   [delete] Deleting directory D:\workspace\framework\testng-xslt
+    [mkdir] Created dir: D:\workspace\framework\testng-xslt
+     [xslt] Using class SaxonLiaison
+     [xslt] Processing D:\workspace\framework\test-output\testng-results.xml to D:\workspace\framework\testng-xslt\index.html
+     [xslt] Loading stylesheet D:\workspace\framework\src\xslt\testng-results.xsl
+report:  duration 1 second
+
+RunAndViewReport:
+ [loadfile] loading D:\workspace\framework\test-output\testng-results.xml into property yourline
+ [loadfile] loaded 62 characters
+     [echo] ${yourline} = 
+     [echo] <testng-results skipped="0" failed="0" total="2" passed="2">
+     [exec] Current OS is Windows 7
+     [exec] Executing 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe' with arguments:
+'D:\workspace\framework/testng-xslt/index.html'
+
+The ' characters around the executable and arguments are
+not part of the command.
+spawned process java.lang.ProcessImpl@4db3925
+RunAndViewReport:  duration 1 second
+
+sendMail:
+      [zip] Building zip: D:\workspace\framework\testng-xslt\Report.zip
+      [zip] adding entry Parallel test runs.html
+      [zip] adding entry Parallel test runs_T_01.html
+      [zip] adding entry Parallel test runs_T_02.html
+      [zip] adding entry Parallel test runs_groups.html
+      [zip] adding entry index.html
+      [zip] adding entry main.js
+      [zip] adding entry navigation.html
+      [zip] adding entry overview-chart.svg
+      [zip] adding entry overview.html
+      [zip] adding entry reporterOutput.html
+      [zip] adding entry style.css
+     [mail] Using MIME mail
+     [mail] Sending email: Notification of Automation Run Result
+     [mail] From jaichoc1@gmail.com
+     [mail] ReplyTo []
+     [mail] To [jaichoc1@gmail.com]
+     [mail] Cc []
+     [mail] Bcc []
+     [mail] Sent email with 1 attachment
+sendMail:  duration 32 seconds
+
+BUILD SUCCESSFUL
